@@ -1,0 +1,19 @@
+{
+    "name": "meicai/test",
+    "authors": [
+        {
+            "name": "任小龙",
+            "email": "40367288@qq.com"
+        }
+    ],
+    "require": {
+		"renxiaolong/tools":"dev-master"
+	},
+	
+	"repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.packagist.org"
+    }
+  ]
+}
