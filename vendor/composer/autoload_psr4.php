@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'rxlwin\\tools\\params\\' => array($vendorDir . '/renxiaolong/tools/params'),
     'rxlwin\\tools\\arr\\' => array($vendorDir . '/renxiaolong/tools/arr'),
+    'rxlwin\\tools\\' => array($vendorDir . '/renxiaolong/tools'),
 );

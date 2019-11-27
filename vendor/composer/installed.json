@@ -1,23 +1,24 @@
 [
     {
         "name": "renxiaolong/tools",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "v2.0.x-dev",
+        "version_normalized": "2.0.9999999.9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/rxlwin/tools.git",
-            "reference": "43ecb210784083b47fdae9b003b83f11c9eed11e"
+            "reference": "ecf1f527506ba82c9b134dafbadcbe69f3fda2be"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/rxlwin/tools/zipball/43ecb210784083b47fdae9b003b83f11c9eed11e",
-            "reference": "43ecb210784083b47fdae9b003b83f11c9eed11e",
+            "url": "https://api.github.com/repos/rxlwin/tools/zipball/ecf1f527506ba82c9b134dafbadcbe69f3fda2be",
+            "reference": "ecf1f527506ba82c9b134dafbadcbe69f3fda2be",
             "shasum": ""
         },
         "require": {
+            "ext-redis": "*",
             "php": ">=7.0.0"
         },
-        "time": "2019-01-28T12:05:52+00:00",
+        "time": "2019-09-04T10:10:36+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -26,7 +27,8 @@
             ],
             "psr-4": {
                 "rxlwin\\tools\\params\\": "params/",
-                "rxlwin\\tools\\arr\\": "arr/"
+                "rxlwin\\tools\\arr\\": "arr/",
+                "rxlwin\\tools\\": ""
             }
         },
         "notification-url": "https://packagist.org/downloads/",

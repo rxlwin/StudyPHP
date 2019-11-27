@@ -15,6 +15,7 @@ class ComposerStaticInite6159e4ac89ecbea17b44005dfb3c7a2
         array (
             'rxlwin\\tools\\params\\' => 20,
             'rxlwin\\tools\\arr\\' => 17,
+            'rxlwin\\tools\\' => 13,
         ),
     );
 
@@ -26,6 +27,10 @@ class ComposerStaticInite6159e4ac89ecbea17b44005dfb3c7a2
         'rxlwin\\tools\\arr\\' => 
         array (
             0 => __DIR__ . '/..' . '/renxiaolong/tools/arr',
+        ),
+        'rxlwin\\tools\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/renxiaolong/tools',
         ),
     );
 

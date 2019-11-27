@@ -7,7 +7,7 @@
         }
     ],
     "require": {
-		"renxiaolong/tools":"dev-master"
+		"renxiaolong/tools":"v2.0.x-dev"
 	},
 	
 	"repositories": [

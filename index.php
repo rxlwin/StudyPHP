@@ -3,7 +3,7 @@ require "vendor/autoload.php";
 
 
 $m = getParamM();
-$file = './test/' . trim($m, '/') . '/index.php';
+$file = './collection/' . trim($m, '/') . '/index.php';
 if (is_file($file)) {
     t('start');
     include $file;
